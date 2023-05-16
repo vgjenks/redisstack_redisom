@@ -1,0 +1,40 @@
+.home-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    flex: 1 1 100%;
+    max-width: 30vw;
+    gap: 1em;
+    margin: 2em;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+    h1 {
+        font-size: 1.2em;
+    }
+    div {
+        font-size: .9em;
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: .5em;
+    font-weight: 700;
+    flex: 1 1 100%;
+    a,:active,:visited,:hover {
+        color: #24603c;
+    }
+}

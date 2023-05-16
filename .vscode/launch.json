@@ -1,0 +1,33 @@
+{
+    "version": "1.1.0",
+    "compounds": [
+        {
+            "name": "Debug All",
+            "stopAll": true,
+            "configurations": [
+                "Redis API",
+                "React Client"
+            ]
+        }
+    ],
+    "configurations": [
+        {
+            "name": "React Client",
+            "type": "chrome",
+            "runtimeExecutable": "stable",
+            "request": "launch",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceRoot}/react-client/src"
+        },
+        {
+            "name": "Redis API",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/redis-api/bin/www",
+            "skipFiles": [
+                "<node_internals>/**/*.js",
+                "${workspaceRoot}/node_modules/**/*.js"
+            ]
+        }
+    ]
+}
