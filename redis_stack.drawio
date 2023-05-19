@@ -1,0 +1,49 @@
+<mxfile host="Electron" modified="2023-05-19T17:49:22.650Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="0L-d9loXUT2GTaTOPeWB" version="21.2.8" type="device">
+  <diagram name="Page-1" id="YW7g601O22y0hH0lkYX-">
+    <mxGraphModel dx="1242" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1tGdCes6Ew7oG7CsUnmy-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="800" y="297.5" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="1tGdCes6Ew7oG7CsUnmy-2" value="Redis Stack" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="840" y="342.5" width="101.25" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="1tGdCes6Ew7oG7CsUnmy-6" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="1">
+          <mxGeometry x="960" y="392" width="50" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="1tGdCes6Ew7oG7CsUnmy-10" value="React Web Client" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="312.5" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="1tGdCes6Ew7oG7CsUnmy-9" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png;" vertex="1" parent="1tGdCes6Ew7oG7CsUnmy-10">
+          <mxGeometry x="28.75" y="50.82" width="142.5" height="123.86" as="geometry" />
+        </mxCell>
+        <mxCell id="1tGdCes6Ew7oG7CsUnmy-11" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="325.5" width="349" height="174.5" as="geometry" />
+        </mxCell>
+        <mxCell id="1tGdCes6Ew7oG7CsUnmy-12" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
+          <mxGeometry x="866" y="399.25" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="1tGdCes6Ew7oG7CsUnmy-14" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.dailyupblog.com/wp-content/uploads/node_express.jpg;" vertex="1" parent="1">
+          <mxGeometry x="420" y="335" width="156.84" height="104.5" as="geometry" />
+        </mxCell>
+        <mxCell id="1tGdCes6Ew7oG7CsUnmy-15" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://raw.githubusercontent.com/redis/redis-om-node/HEAD/logo.svg;" vertex="1" parent="1">
+          <mxGeometry x="480" y="439.5" width="210" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="1tGdCes6Ew7oG7CsUnmy-17" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1tGdCes6Ew7oG7CsUnmy-10" target="1tGdCes6Ew7oG7CsUnmy-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="423" as="sourcePoint" />
+            <mxPoint x="370" y="373" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1tGdCes6Ew7oG7CsUnmy-18" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1tGdCes6Ew7oG7CsUnmy-11" target="1tGdCes6Ew7oG7CsUnmy-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="412.25" as="sourcePoint" />
+            <mxPoint x="800" y="362.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
