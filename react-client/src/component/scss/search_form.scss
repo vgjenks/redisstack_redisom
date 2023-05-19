@@ -1,0 +1,47 @@
+.search-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex: 1 1 100%;
+    max-width: 60vw;
+    gap: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.page-sections {
+    flex: 1;
+    padding: 1em;
+    border-style: solid;
+    border-width: 0.1em;
+    border-radius: 0.5em;
+    border-color: #CCCCCC;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 15vw;
+    @extend .page-sections;
+}
+
+.search-results {
+    display: flex;
+    flex-direction: column;
+    max-width: 85vw;
+    gap: 1em;
+    @extend .page-sections;
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        ul {
+            margin: 0em;
+            li {
+                font-size: 0.8em;
+            }
+        }
+    }
+}
