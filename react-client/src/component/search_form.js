@@ -10,8 +10,7 @@ const SearchForm = () => {
 
     const {
         register,
-        handleSubmit,
-        formState: { errors }
+        handleSubmit
     } = useForm();
 
     const onSubmit = async formData => {
@@ -42,35 +41,30 @@ const SearchForm = () => {
                                 <option value="sightseeing">Sightseeing</option>
                             </select>
                         </label>
-                        {errors.visit_purpose && <span className="validation">{errors.visit_purpose.message}</span>}
                     </div>
                     <div>
                         <label>
                             Visited City
                             <input type="text" {...register("visit_city")} />
                         </label>
-                        {errors.visit_city && <span className="validation">{errors.visit_city.message}</span>}
                     </div>
                     <div>
                         <label>
                             Home City
                             <input type="text" {...register("city")} />
                         </label>
-                        {errors.city && <span className="validation">{errors.city.message}</span>}
                     </div>
                     <div>
                         <label>
                             First Name
                             <input type="text" {...register("first_name")} />
                         </label>
-                        {errors.first_name && <span className="validation">{errors.first_name.message}</span>}
                     </div>
                     <div>
                         <label>
                             Last Name
                             <input type="text" {...register("last_name")} />
                         </label>
-                        {errors.last_name && <span className="validation">{errors.last_name.message}</span>}
                     </div>
                     <div>
                         <button type="submit">Submit</button>
